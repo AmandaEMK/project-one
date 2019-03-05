@@ -36,6 +36,8 @@ For each, provide its name, a link to its official site and a short sentence of 
 - [Bootstrap](https://www.bootstrapcdn.com)
     - Bootstrap was used to speed up and help with the concistency of the websites layout
 
+- [Balsamiq](https://balsamiq.cloud)
+    - Balsamiq was used to create the wireframes
 
 ## Testing
 
@@ -75,7 +77,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from the modules asset folder
 
 ### Acknowledgements
 
