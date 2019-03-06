@@ -26,13 +26,18 @@ img {
     margin-right: auto;
 }
     
-.nav {
+.navbar {
     background-color: white;
+}
+
+.navbar a {
+    color:black;
 }
     
 .landingphoto {
-    background-image: url("assets/images/monkees.jpg");
-    min-height: 600px;
+    background-image: url("../images/monkees.jpg");
+    background-size: cover;
+    min-height: 700px;
     width: 100%;
 }
 
@@ -48,6 +53,10 @@ img {
     background-color: pink;
     padding-left: 250;
     padding-right: 250;
+}
+
+.musicvideo {
+    text-align: center;
 }
 
 .tour {

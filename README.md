@@ -36,6 +36,9 @@ For each, provide its name, a link to its official site and a short sentence of 
 - [Bootstrap](https://www.bootstrapcdn.com)
     - Bootstrap was used to speed up and help with the concistency of the websites layout
 
+- [jQuery](https://jquery.com/)
+    - To make Bootstraps JavaScript plugins function
+
 - [Balsamiq](https://balsamiq.cloud)
     - Balsamiq was used to create the wireframes
 
