@@ -1,0 +1,55 @@
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+    letter-spacing: +1;
+    text-transform: uppercase;
+}
+
+h4 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 7px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.nav {
+    background-color: white;
+}
+    
+.landingphoto {
+    background-image: url("assets/images/monkees.jpg");
+    min-height: 600px;
+    width: 100%;
+}
+
+.about {
+    background-color: hotpink;
+}
+
+.about-text p {
+    padding: 100px;
+    margin: 100px;
+}
+
+.music {
+    background-color: pink;
+    padding-left: 250;
+    padding-right: 250;
+}
+
+.tour {
+    background-color: hotpink;
+}
+
+.contact {
+    background-color: pink;
+}

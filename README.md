@@ -74,7 +74,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- Navbar code was taken from here [W3Schools](https://www.w3schools.com/booTsTrap/bootstrap_navbar.asp)
 
 ### Media
 - The photos used in this site were obtained from the modules asset folder
