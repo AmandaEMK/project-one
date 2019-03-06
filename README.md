@@ -74,7 +74,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- Navbar code was taken from here [W3Schools](https://www.w3schools.com/booTsTrap/bootstrap_navbar.asp)
+- Navbar is partially from here [W3Schools](https://www.w3schools.com/booTsTrap/bootstrap_navbar.asp)
+- Video embed from [BootstapCDN](https://getbootstrap.com/docs/3.3/components/#responsive-embed)
 
 ### Media
 - The photos used in this site were obtained from the modules asset folder
