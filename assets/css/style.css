@@ -1,10 +1,17 @@
 body {
     padding-top: 50px;
-    
 }
 
 p {
     text-align: center;
+}
+
+a {
+    color:purple;
+}
+
+li>a:hover {
+    color:black;    
 }
 
 h1 {
@@ -40,7 +47,7 @@ img {
 .navbar a {
     color:black;
 }
-    
+
 .landingphoto {
     background-image: url("../images/monkees.jpg");
     background-size: cover;
@@ -58,8 +65,8 @@ img {
 
 .music {
     background-color: pink;
-    padding-left: 250;
-    padding-right: 250;
+    padding-bottom: 50px;
+
 }
 
 .albumnomargin {
@@ -86,10 +93,15 @@ img {
 
 .tour {
     background-color: hotpink;
+    padding-bottom: 50px;
 }
 
 .table {
     border-style: hidden;
+}
+
+.lead {
+    margin-top: 10px;
 }
 
 .contact {
