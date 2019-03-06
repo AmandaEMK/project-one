@@ -10,7 +10,7 @@ p {
 h1 {
     text-align: center;
     padding: 30px;
-    letter-spacing: +1;
+    letter-spacing: +2;
     text-transform: uppercase;
 }
 
@@ -20,10 +20,17 @@ h4 {
     padding-top: 7px;
 }
 
+h5 {
+    text-transform: uppercase;
+    padding-top: 7px;
+}
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+    height: auto;
 }
     
 .navbar {
@@ -55,12 +62,34 @@ img {
     padding-right: 250;
 }
 
+.albumnomargin {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.album img {
+    float:left;
+} 
+
+.songlist {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+
 .musicvideo {
     text-align: center;
+    max-width:100%;
+    height:auto;
+    margin-top: 50px;
 }
 
 .tour {
     background-color: hotpink;
+}
+
+.table {
+    border-style: hidden;
 }
 
 .contact {
