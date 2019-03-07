@@ -69,11 +69,6 @@ img {
 
 }
 
-.albumnomargin {
-    margin-right: 15px;
-    margin-left: 15px;
-}
-
 .album img {
     float:left;
 } 
@@ -106,4 +101,8 @@ img {
 
 .contact {
     background-color: pink;
+}
+
+.contactbutton {
+    float:right;
 }
