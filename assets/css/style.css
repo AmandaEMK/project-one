@@ -6,13 +6,7 @@ p {
     text-align: center;
 }
 
-a {
-    color:purple;
-}
 
-li>a:hover {
-    color:black;    
-}
 
 h1 {
     text-align: center;
@@ -27,26 +21,25 @@ h4 {
     padding-top: 7px;
 }
 
-h5 {
-    text-transform: uppercase;
-    padding-top: 7px;
-}
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: auto;
-}
+
+    /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Navbar ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
     
-.navbar {
-    background-color: white;
+.navbar
+.navbar-default 
+.navbar-header {
+    background-color: white; 
+    box-shadow: none; 
+    border: none; 
 }
 
-.navbar a {
-    color:black;
+
+.navbar-brand
+.navbar-default a {
+    color: black!important
 }
+
+    /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Landing thing ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
 
 .landingphoto {
     background-image: url("../images/monkees.jpg");
@@ -54,6 +47,8 @@ img {
     min-height: 700px;
     width: 100%;
 }
+
+    /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ About section ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
 
 .about {
     background-color: hotpink;
@@ -63,10 +58,37 @@ img {
     padding: 50px;
 }
 
+.about img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+    /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Music section ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
+
 .music {
     background-color: pink;
     padding-bottom: 50px;
+}
 
+.music a {
+    color:purple;
+}
+
+.music a:hover {
+    color:black;    
+}
+
+.music h5 {
+    text-transform: uppercase;
+    padding-top: 7px;
+    padding-left: 20px;
+}
+
+.music ol {
+    vertical-align: central; 
 }
 
 .album img {
@@ -78,13 +100,14 @@ img {
     display: inline-block;
 }
 
-
 .musicvideo {
     text-align: center;
     max-width:100%;
     height:auto;
     margin-top: 50px;
 }
+
+    /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Tour section ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
 
 .tour {
     background-color: hotpink;
@@ -98,6 +121,8 @@ img {
 .lead {
     margin-top: 10px;
 }
+
+    /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Contact form ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
 
 .contact {
     background-color: pink;

@@ -77,12 +77,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- Navbar is partially from here [W3Schools](https://www.w3schools.com/booTsTrap/bootstrap_navbar.asp)
-- Media code snippet from here [Bootstrap website](https://getbootstrap.com/docs/3.4/components/#media)
+- Navbar was taken from here and thn customized [W3Schools](https://www.w3schools.com/booTsTrap/bootstrap_navbar.asp)
+- Basic form snippet from here [Bootstrapdocs](https://bootstrapdocs.com/v3.3.6/docs/css/#forms)
 
 ### Media
 - The photos used in this site were obtained from the modules asset folder
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from the sample project and other one page scrool style pages
