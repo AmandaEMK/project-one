@@ -91,19 +91,21 @@ h4 {
 }
 
 .music a {
-    color:purple;
+    color: #333333;
+    font-size: 90%;
 }
 
 .music a:hover {
-    color:black;    
+    color:#32CD32;    
 }
 
 .music h5 {
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     padding-top: 7px;
     padding-left: 20px;
+    font-size: 150%;
 }
-
 
 .album img {
     float:left;
@@ -119,6 +121,7 @@ video {
     width:100%;
     height:auto;
     margin-top: 50px;
+    margin-bottom: 30px; 
 }
 
 .musicvideo {
@@ -205,6 +208,6 @@ video {
     font-size: 90%;
 }
 
-.footer a {
-    
+.footer i:hover {
+    color:#737373;    
 }

@@ -1,54 +1,57 @@
-# A website for The Band
+# A website for The Monkees
 
-One or two paragraphs providing an overview of your project.
+This is a website for a band called The Monkees. The band wanted a website on which their fans could listen to their music, watch videos and book them for their events. They also wanted their photos displayed and for there to be links to their YouTube and social media profiles.
 
-Essentially, this part is your sales pitch.
- 
+## Demo
+
+You can find a live demo of the site [right here](https://project-one-amandaw.c9users.io/).
+
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The target audience of this site is fans (and potential fans) of The Monkees, of which many are not digital natives. I therefore wanted to make a easy to use, fast loading, no-frills one page website with a clean UX that anyone could navigate either on desktop, tablet or a smartphone. I made the wireframes with desktop in mind, but the goal was always to make the website look good and funtion well on all major devices. I made it responsive by making sure to use percentages instead of px whenever possible, and using Bootstrap columns for the layout.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+### User stories
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+- As a fan, I want to see when they are touing next, so that I can buy tickets.
+- As an event coordinator, I want to see if the are available for private concerts, and if they are I want to be able to contact them.
+- As a long time fan, I want to listen to some of their songs to bring back old memories.
+- As a fan, I want to be able to find out on where to follow them, so that I  can stay up to date.
+ 
+### Wireframes
+
+You can find the wireframes in the wireframes folder, on here or by clicking [this link](https://project-one-amandaw.c9users.io/wireframes/TheBand.png).
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- About - Allows the user to learn more or refresh their memory of the band and the members
+- Music - Allows the user to see their discography, listen to a few of the songs and watch a video of theirs.
+- Tours - Allows the user can stay up to date with tour dates and also buy tickets to them by clicking the button
+- Book us - Allows the user to enquire about having The Monkees come play at their event by submitting a form
+- Footer with social links - Allows the user to find and follow the social media sites that the band use
 
 ### Features Left to Implement
-- Another feature idea
+
+- Photo gallery - Fans, old and new, would surely love it if there was a photo gallery to be found
+- Shop - Minor one selling printed goods, or at least linking the album covers in "Music" to the Amazon page for the corresponding album
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project.
-For each, provide its name, a link to its official site and a short sentence of why it was used.
+- HTML
+    - Used to create the sctructure of the website
+
+- CSS
+    - Used to customize the look of the website
 
 - [Bootstrap](https://www.bootstrapcdn.com)
-    - Bootstrap was used to speed up and help with the concistency of the websites layout
+    - Bootstrap was used to speed up development and help with the concistency of the websites layout
 
 - [jQuery](https://jquery.com/)
     - To make Bootstraps JavaScript plugins function
 
-- [Balsamiq](https://balsamiq.cloud)
-    - Balsamiq was used to create the wireframes
 
 ## Testing
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 1. Contact form:
     1. Go to the "Contact Us" page
@@ -56,23 +59,29 @@ For any scenarios that have not been automated, test the user stories manually a
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
+
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+### User stories testing
+
+- "As a fan, I want to see when they are touring next, so that I can buy tickets."
+    - The touring section offers an easy to comprehend list of upcoming concerts along with a "buy" button that opens a link in a few window (could be linked to an external website such as viagogo)
+
+- "As an event coordinator, I want to see if the are available for private concerts, and if they are I want to be able to contact them."
+    - The website clearly states that they are available for this and the form is easy to find. The form will not send unless the email address is vaild (aka has got an @ in it)
+    
+- "As a long time fan, I want to listen to some of their songs to bring back old memories.
+    - Right net to their albums a track list is provided. Next to the songs, play buttons can be found. When clicked, the song will play in a few tab.
+
+- "As a fan, I want to be able to find out on where to follow them, so that I  can stay up to date."
+    - In the page footer, large icons representing the social media they are active on can be clicked on to open up a link to the corresponding profile of theirs in a new tab.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+The project has been backed up using Git. It is deployed on GitHub Pages. The development version and the deployed one are the same.
 
 ## Credits
 
@@ -87,6 +96,6 @@ In addition, if it is not obvious, you should also describe how to run your code
 - Navbar was taken from here and then customized [Bootstrapdocs](https://bootstrapdocs.com/v3.3.6/docs/components/#navbar)
 - Basic form snippet from here [Bootstrapdocs](https://bootstrapdocs.com/v3.3.6/docs/css/#forms)
 - Parallax scrolling taken from here and then customized [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp)
-- I received inspiration for this project from the sample project
-- Scrolling through [CSSTricks](https://css-tricks.com/) has helped me agreat deal
+- Browsing through [CSSTricks](https://css-tricks.com/) has helped me agreat deal
 - Learnt how to make icons accessable here [FontAwesome](https://fontawesome.com/v4.7.0/accessibility/)
+- Balsamiq was used to create the wireframes [Balsamiq](https://balsamiq.cloud)
