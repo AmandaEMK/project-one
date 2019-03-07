@@ -77,12 +77,16 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- Navbar was taken from here and thn customized [W3Schools](https://www.w3schools.com/booTsTrap/bootstrap_navbar.asp)
-- Basic form snippet from here [Bootstrapdocs](https://bootstrapdocs.com/v3.3.6/docs/css/#forms)
+- All information and text on The Monkees was taken from [their Wikipedia article](https://en.wikipedia.org/wiki/The_Monkees)
 
 ### Media
 - The photos used in this site were obtained from the modules asset folder
 
 ### Acknowledgements
 
-- I received inspiration for this project from the sample project and other one page scrool style pages
+- Navbar was taken from here and then customized [Bootstrapdocs](https://bootstrapdocs.com/v3.3.6/docs/components/#navbar)
+- Basic form snippet from here [Bootstrapdocs](https://bootstrapdocs.com/v3.3.6/docs/css/#forms)
+- Parallax scrolling taken from here and then customized [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp)
+- I received inspiration for this project from the sample project
+- Scrolling through [CSSTricks](https://css-tricks.com/) has helped me agreat deal
+- Learnt how to make icons accessable here [FontAwesome](https://fontawesome.com/v4.7.0/accessibility/)
