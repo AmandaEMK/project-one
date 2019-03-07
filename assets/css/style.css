@@ -1,5 +1,4 @@
 body {
-    margin-top: 30px;
     height: 90%;
 }
 
@@ -9,19 +8,24 @@ html {
 
 p {
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 h1 {
     text-align: center;
-    padding: 30px;
-    letter-spacing: +2;
+    padding: 50px;
+    letter-spacing: 8px;
     text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+    font-size: 400%;
+    color: black;
 }
 
 h4 {
     text-align: center;
     text-transform: uppercase;
     padding-top: 7px;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -34,32 +38,36 @@ h4 {
     box-shadow: none!important; 
     border: none!important; 
     text-transform: uppercase;
-}
-
-.navbar-brand {
-    color:black!important;
+    letter-spacing: 3px;
 }
 
 .nav li a {
     color:black!important;
+    font-weight: bold;
 }
 
     /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Landing thing ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
 
 .landingphoto {
     background-image: url("../images/monkees.jpg");
-    height: 70%; 
+    height: 100%; 
     width: 100%; 
     background-attachment: fixed;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:100%;
+    max-height: 90%;
 }
 
     /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ About section ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
 
 .about {
-    background-color: white;
+    background-color: pink;
+}
+
+.about-text p {
+    text-align: left;
+    font-size: 120%;
 }
 
 .about-text {
@@ -77,8 +85,9 @@ h4 {
     /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Music section ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
 
 .music {
-    background-color: pink;
+    background-color: white;
     padding-bottom: 50px;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 .music a {
@@ -119,44 +128,41 @@ video {
     /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Tour section ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
 
 .tour {
-    background-color: hotpink;
+    background-color: #dcd0ff;
     padding-bottom: 50px;
+    font-family: 'Didact Gothic', sans-serif;
 }
+
 
 .table {
     border-style: hidden;
     max-width: 100%;
 }
 
-.lead {
-    margin-top: 10px;
-}
-
 .tour img {
     display: block;
     max-width: 100%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-p {
-    font-size: 100%;
-}
+    /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Book Us ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
 
-    /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Contact ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
-
-.contact {
+.bookus {
     background-color: white;
     padding-bottom: 100px;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
-.contactbutton {
-    float:center;
+.bookusbutton {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.contact img {
+.bookus img {
     display: block;
     max-width: 100%;
-    height: auto;
     margin-left: auto;
     margin-right: auto;
 }
@@ -170,6 +176,7 @@ p {
     text-align: center;
     width: 100%;
     padding-top: 10px;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 .fa-facebook {
@@ -195,7 +202,7 @@ p {
 
 .footer p {
     color:gray;
-    font-size: 80%;
+    font-size: 90%;
 }
 
 .footer a {
