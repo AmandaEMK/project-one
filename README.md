@@ -69,7 +69,7 @@ You should also mention in this section any interesting bugs or problems you dis
 Parallax scrolling is borked
 Text under xs only photo wont center
 Tour schedule wont center vertically
-
+Send button wont center
 
 
 ### User stories testing
@@ -106,3 +106,4 @@ The project has been backed up using Git. It is deployed on GitHub Pages. The de
 - Browsing through [CSSTricks](https://css-tricks.com/) has helped me agreat deal
 - Learnt how to make icons accessable here [FontAwesome](https://fontawesome.com/v4.7.0/accessibility/)
 - Balsamiq was used to create the wireframes [Balsamiq](https://balsamiq.cloud)
+- My README is based on the template provided in the course
