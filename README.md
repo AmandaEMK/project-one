@@ -69,8 +69,6 @@ You should also mention in this section any interesting bugs or problems you dis
 Parallax scrolling is borked
 Text under xs only photo wont center
 Tour schedule wont center vertically
-Send button wont center
-
 
 ### User stories testing
 
