@@ -64,6 +64,13 @@ In addition, you should mention in this section how your project looks and works
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
+## BUGS
+
+Parallax scrolling is borked
+Text under xs only photo wont center
+Tour schedule wont center vertically
+
+
 
 ### User stories testing
 
