@@ -67,8 +67,8 @@ You should also mention in this section any interesting bugs or problems you dis
 ## BUGS
 
 Parallax scrolling is borked
-Text under xs only photo wont center
 Tour schedule wont center vertically
+Album image wont center on smartphone
 
 ### User stories testing
 

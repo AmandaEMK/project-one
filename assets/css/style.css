@@ -1,7 +1,5 @@
 
     /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ General ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
-    
-
 
 body {
     height: 100%;
@@ -18,12 +16,11 @@ p {
 
 h1 {
     text-align: center;
-    letter-spacing: 14px;
+    letter-spacing: 10px;
     text-transform: uppercase;
     font-family: 'Barlow', sans-serif;
-    font-size: 400%;
+    font-size: 2.5em;
     color: black;
-    font-weight: bold;
 }
 
 h4 {
@@ -34,13 +31,13 @@ h4 {
 }
 
 .paddeddiv {
-    padding-top:25px;
-    padding-bottom:25px;
+    padding-top:5px;
+    padding-bottom:5px;
 }
 
 .titlediv {
-    padding-top:25px;
-    padding-bottom:30px;
+    padding-top:15px;
+    padding-bottom:20px;
     
 }
 
@@ -65,21 +62,22 @@ h4 {
     
 }
 
+.nav a:hover {
+    color:#32CD32!important;    
+}
 
 
     /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Landing thing ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
 
-
-
 .landingphoto {
     background-image: url("../images/monkees.jpg");
-    height: 600px; 
+    height:40%; 
     background-attachment: fixed;
-    background-position: center;
+    background-position: 50% 13%;
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:125%;
+    background-color:black;
 }
-
 
 
     /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ About section ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
@@ -90,30 +88,27 @@ h4 {
     background-color: pink;
 }
 
-.about h1 {
-    padding-bottom: 40px;
-}
-
 .about-text p {
     text-align: left;
-    font-size: 120%;
+    font-size: 1em;
 }
 
 .instrument {
     font-family: 'Barlow', sans-serif;
-    font-size: 110%;
+    font-size: 1.1em;
     padding-top: 0px;
 }
 
 .mobileonlyphototext {
     text-align:center;
-    font-size: 100%;
+    font-size: 0.9em;
+    padding-top: 8px;
+    padding-bottom: 8px;
     font-family: 'Poppins', sans-serif;
 }
 
 .about-text {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 .about img {
@@ -132,13 +127,12 @@ h4 {
 
 .music {
     background-color: white;
-    padding-bottom: 50px;
     font-family: 'Didact Gothic', sans-serif;
 }
 
 .music a {
     color: #333333;
-    font-size: 90%;
+    font-size: 0.9em;
 }
 
 .music a:hover {
@@ -148,40 +142,41 @@ h4 {
 .music h5 {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    padding-top: 7px;
-    padding-left: 20px;
-    font-size: 150%;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 .music li {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 105%;
+    font-size: 1em;
     letter-spacing: 0.7px;
-}
-
-.album img {
-    float:left;
-} 
-
-.album {
-    padding-bottom: 40px;
+    text-align: left;
 }
 
 .songlist {
     padding-left: 10px;
+}
+
+.album {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.centeralbum {
     display: inline-block;
 }
 
 video {
-    max-width:700px;
     width:100%;
-    height:auto;
-    margin-top: 50px;
+    margin-top: 15px;
     margin-bottom: 30px; 
 }
 
-.musicvideo {
-    text-align: center;
+.musicvideotext {
+    color:black;
+    font-size: 1.2em;
 }
 
 
@@ -200,7 +195,7 @@ video {
 
 .tour p {
     font-family: 'Playfair Display', serif;
-    font-size: 125%;
+    font-size: 1.2em;
     text-align: left;
 }
 
@@ -221,18 +216,15 @@ video {
 
 .bookus {
     background-color: white;
-    padding-bottom: 100px;
     font-family: 'Didact Gothic', sans-serif;
     text-align: center;
 }
 
 .bookus img {
-    display: block;
-    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-top:30px;
-    padding-bottom:45px;
+    padding-top:35px;
+    padding-bottom:30px;
     
 }
 
@@ -252,21 +244,21 @@ video {
 }
 
 .fa-facebook {
-    font-size: 250%;
+    font-size: 2.5em;
     padding-left: 5px;
     padding-right: 5px;
     color:black;
 }
 
 .fa-youtube {
-    font-size: 250%;
+    font-size: 2.5em;
     padding-left: 5px;
     padding-right: 5px;
     color:black;
 }
 
 .fa-twitter {
-    font-size: 250%;
+    font-size: 2.5em;
     padding-left: 5px;
     padding-right: 5px;
     color:black;
@@ -274,7 +266,7 @@ video {
 
 .footer p {
     color:gray;
-    font-size: 90%;
+    font-size: 0.9em;
 }
 
 .footer i:hover {
@@ -285,21 +277,62 @@ video {
 
     /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Media queries ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
     
+
+/*-- Small devices (landscape phones, 576px and up) --*/
+
+@media (min-width: 576px) {
     
+.landingphoto {
+    background-image: url("../images/monkees.jpg");
+    height:39%; 
+    background-attachment: fixed;
+    background-position: 50% 12%;
+    background-repeat: no-repeat;
+    background-size:125%;
+    background-color:black;
+}
     
-@media (max-width: 576px) { 
+}
+
+
+/*-- Medium devices (tablets, 768px and up) --*/
     
-h1 {
-    letter-spacing: 10px;
-    text-transform: uppercase;
-    font-family: 'Barlow', sans-serif;
-    font-size: 250%;
-    color: black;
+@media (min-width: 768px) { 
+    
+.landingphoto {
+    background-image: url("../images/monkees.jpg");
+    height:39%; 
+    background-attachment: fixed;
+    background-position: 50% 12%;
+    background-repeat: no-repeat;
+    background-size:125%;
+    background-color:black;
+}
+    
+
+.album img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.about img {
+    margin-bottom:8px;
+}
+
+.about-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.titlediv {
+    padding-top:20px;
+    padding-bottom:40px;
 }
     
 .tour p {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 85%;
+    font-size: 0.85em;
     color:black;
 }
 
@@ -309,27 +342,14 @@ video {
     margin-bottom: 30px; 
 }
 
-
 .paddeddiv {
     padding-top:5px;
     padding-bottom:5px;
 }
 
-.titlediv {
-    padding-top:0px;
-    padding-bottom:15px;
-    
-}
-
-.container-fluid {
-    padding-left:5px;
-    padding-right:5px;
-}
 
 .bookus img {
     display: block;
-    width: 70%;
-    height: 70%;
     margin-left: auto;
     margin-right: auto;
     padding-top:35px;
@@ -339,11 +359,92 @@ video {
 }
 
 
+/*-- Large devices (desktops, 992px and up) --*/
 
-@media (max-width: 768px) { 
+@media (min-width: 992px) { 
+
+.about-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
     
-.tour p {
-    font-size: 110%;
+.titlediv {
+    padding-top:30px;
+    padding-bottom:40px;
+    
+}    
+    
 }
 
+/*-- Extra large devices (large desktops, 1200px and up) --*/
+
+@media (min-width: 1200px) { 
+    
+.landingphoto {
+    background-image: url("../images/monkees.jpg");
+    height:80%; 
+    background-attachment: fixed;
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-color:black;
+}
+    
+h1 {
+    letter-spacing: 14px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+}    
+    
+
+.about h1 {
+    padding-bottom: 40px;
+}
+
+.about-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.music a {
+    font-size: 0.9em;
+}
+
+
+.music h5 {
+    padding-top: 7px;
+    padding-left: 20px;
+    font-size: 1.5em;
+}
+
+.music li {
+    font-size: 1em;
+    letter-spacing: 0.7px;
+}
+
+
+.album {
+    padding-bottom: 20px;
+}
+
+.songlist {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+video {
+    max-width:700px;
+    width:100%;
+    height:auto;
+    margin-top: 50px;
+    margin-bottom: 30px; 
+}
+
+.musicvideo {
+    text-align: center;
+}
+
+
+    
 }
