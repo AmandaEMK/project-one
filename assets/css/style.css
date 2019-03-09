@@ -20,7 +20,6 @@ h1 {
     text-transform: uppercase;
     font-family: 'Barlow', sans-serif;
     font-size: 2.5em;
-    color: black;
 }
 
 h4 {
@@ -48,7 +47,7 @@ h4 {
 
 
 .navbar {
-    background-color: white!important; 
+    background-color: #D9CAB3!important; 
     box-shadow: none!important; 
     border: none!important; 
     text-transform: uppercase;
@@ -56,14 +55,14 @@ h4 {
 }
 
 .nav li a {
-    color:black!important;
+    color:#BF4342!important;
     font-weight: bold;
     text-align: center;
     
 }
 
 .nav a:hover {
-    color:#32CD32!important;    
+    color:#BF4342!important;    
 }
 
 
@@ -85,12 +84,26 @@ h4 {
 
 
 .about {
-    background-color: pink;
+    background-color: #94B9AF;
+}
+
+.about h4 {
+    color:#F4EEE3;
+}
+
+.about h1 {
+    color:#0E3E66;
+}
+
+.about p {
+    color:#F4EEE3;
 }
 
 .about-text p {
     text-align: left;
     font-size: 1em;
+    color:#F4EEE3;
+    padding-bottom: 10px;
 }
 
 .instrument {
@@ -105,10 +118,6 @@ h4 {
     padding-top: 8px;
     padding-bottom: 8px;
     font-family: 'Poppins', sans-serif;
-}
-
-.about-text {
-    padding-bottom: 10px;
 }
 
 .about img {
@@ -126,17 +135,21 @@ h4 {
 
 
 .music {
-    background-color: white;
+    background-color: #F4EEE3;
     font-family: 'Didact Gothic', sans-serif;
 }
 
+.music h1 {
+    color:#0E3E66;
+}
+
 .music a {
-    color: #333333;
+    color: #0E3E66;
     font-size: 0.9em;
 }
 
 .music a:hover {
-    color:#32CD32;    
+    color:#94B9AF;    
 }
 
 .music h5 {
@@ -146,6 +159,7 @@ h4 {
     padding-bottom: 2px;
     font-size: 1.5em;
     text-align: center;
+    color: #0E3E66;
 }
 
 .music li {
@@ -153,6 +167,7 @@ h4 {
     font-size: 1em;
     letter-spacing: 0.7px;
     text-align: left;
+    color: #0E3E66;
 }
 
 .songlist {
@@ -186,13 +201,17 @@ video {
 
 
 .tour {
-    background-color: #dcd0ff;
+    background-color: #BF4342;
+}
+
+.tour h1 {
+    color:#D9CAB3;
 }
 
 .tour p {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 0.95em;
-    color:black;
+    color:#D9CAB3;
 }
 
 .tour img {
@@ -211,19 +230,20 @@ video {
 
 
 .bookus {
-    background-color: white;
+    background-color:#D9CAB3;
     font-family: 'Didact Gothic', sans-serif;
     text-align: center;
 }
 
-.bookus img {
-    max-width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top:35px;
-    padding-bottom:30px;
-    
+.bookus h1 {
+    color:#0E3E66;
 }
+
+.bookus p {
+    color:#0E3E66;
+}
+
+
 
 
 
@@ -233,7 +253,7 @@ video {
 
 .footer {
     height:70px;
-    background-color: white;
+    background-color:#D9CAB3;
     text-align: center;
     width: 100%;
     padding-top: 10px;
@@ -242,32 +262,32 @@ video {
 
 .fa-facebook {
     font-size: 2.5em;
-    padding-left: 5px;
-    padding-right: 5px;
-    color:black;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:#0E3E66;
 }
 
 .fa-youtube {
     font-size: 2.5em;
-    padding-left: 5px;
-    padding-right: 5px;
-    color:black;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:#0E3E66;
 }
 
 .fa-twitter {
     font-size: 2.5em;
-    padding-left: 5px;
-    padding-right: 5px;
-    color:black;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:#0E3E66;
 }
 
 .footer p {
-    color:gray;
+    color:#0E3E66;
     font-size: 0.9em;
 }
 
 .footer i:hover {
-    color:#737373;    
+    color:#94B9AF;    
 }
 
 
@@ -294,6 +314,13 @@ video {
     margin-bottom:30px;
 }
 
+
+.tour p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 0.95em;
+}
+
+
     
 }
 
@@ -304,9 +331,9 @@ video {
     
 .landingphoto {
     background-image: url("../images/monkees.jpg");
-    height:39%; 
+    height:46%; 
     background-attachment: fixed;
-    background-position: 50% 12%;
+    background-position: 50% 08%;
     background-repeat: no-repeat;
     background-size:125%;
     background-color:black;
@@ -336,13 +363,12 @@ video {
 .tour p {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1em;
-    color:black;
 }
 
 
 video {
     margin-top: 0px;
-    margin-bottom: 30px; 
+    margin-bottom: 0px; 
 }
 
 
@@ -357,7 +383,6 @@ video {
     padding-top:5px;
     padding-bottom:5px;
 }
-
 
 .bookus img {
     display: block;
@@ -380,7 +405,15 @@ video {
 
 @media (min-width: 992px) { 
 
-
+.landingphoto {
+    background-image: url("../images/monkees.jpg");
+    height:60%; 
+    background-attachment: fixed;
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-color:black;
+}
 
 h1 {
     letter-spacing: 14px;
