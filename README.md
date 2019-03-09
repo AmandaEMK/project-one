@@ -8,7 +8,9 @@ You can find a live demo of the site [right here](https://project-one-amandaw.c9
 
 ## UX
  
-The target audience of this site is fans (and potential fans) of The Monkees, of which many are not digital natives. I therefore wanted to make a easy to use, fast loading, no-frills one page website with a clean UX that anyone could navigate either on desktop, tablet or a smartphone. I made the wireframes with desktop in mind, but the goal was always to make the website look good and funtion well on all major devices. I made it responsive by making sure to use percentages instead of px whenever possible, and using Bootstrap columns for the layout.
+The target audience of this site is fans (and potential fans) of The Monkees, of which many are not digital natives.
+I therefore wanted to make a easy to use, fast loading, no-frills one page website with a clean UX that anyone could navigate either on desktop, tablet or a smartphone.
+I made the wireframes with desktop in mind as default. As I was going along though, I switched over to a mobile first approach, which led to a few design changes.
 
 ### User stories
 
@@ -31,7 +33,7 @@ You can find the wireframes in the wireframes folder, on here or by clicking [th
 - Book us - Allows the user to enquire about having The Monkees come play at their event by submitting a form
 - Footer with social links - Allows the user to find and follow the social media sites that the band use
 
-### Features Left to Implement
+### Features Left to Implement (Imaginary)
 
 - Photo gallery - Fans, old and new, would surely love it if there was a photo gallery to be found
 - Shop - Minor one selling printed goods, or at least linking the album covers in "Music" to the Amazon page for the corresponding album
@@ -53,22 +55,52 @@ You can find the wireframes in the wireframes folder, on here or by clicking [th
 
 ## Testing
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+I was not able to automate any of the testing seeing as the website itself and my skills are on a very basic level. I did test the website on a range of different screen sizes using
+Chrome dev tools in a structured way (top to bottom basically) to make sure there were no function hindering bugs or major design flaws on any screen size, but put my main focus on making it look good on iPhone 6 and screens bigger than that.
+The CSS and HTML has been tested using [W3C Developer tools](https://w3c.github.io/developers/tools/).
+
+### This is the process I went through to test my website
+
+1.  Menu: 
+    1. Click all links to verify that they work and bring you to the right section
+    2. Also verify that where they bring you makes sense visually (no white spaces before section clicked etc)
+
+1. About
+    1. Verify that photos and text align properly and that the right band member photo/photos are displayed on the right screen sizes
+
+1. Music
+    1. Verify that photos, text and video align properly
+    2. Click the play button next to the songs to verify that they open up in a new browser window to play
+    3. Try watching the video to verify that it plays in browser
+
+1. Tour
+    1. Verify that photos, text and video align properly and according to screen size
+    2. Try clicking the buttons to verify that they open up a new browser window to what would be a ticket website
+
+1. Book us
+    1. Verify that photos, text and form align properly
+    2. Try to submit numbers as a name, an invalid email and letters as a phone number and verify that the form gives an error message
+    3. Try to submit an empty form and verify that the form gives an error message to user
+    4. Try to submit an invalid form (email is letters only) and verify that the form gives an error message to user
+
+1. Footer
+    1. Verify that the font size and the amound of space the footer takes up makes visual sense 
+    2. Click the icons to verify that they open in a new window and bring the user to what would be the right corressponing social media site for each icons
 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+### Differences in layout and function depending on screen size
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+The overall functionality and design is the same across all devices though there are some minor differences. On smaller screens, a group photo will be show in the about section instead of everyones individual photo.
+Larger devices will have the albums next to each other in the music section, while smaller devices will find them stacked vertically.
+Same thing will happen for the tour section, it will split into two sections (photo and text) and stack on smaller screens.
+The little cartoon at the bottom of the website will move around depending on the device screen size, just thought it looked nicer that way.
+The menu will turn into a burger style drop down menu on smaller screen in order to save pixels/space (is that the correct term even?).
 
-## BUGS
+### Bugs
 
-- Not really a bug maybe but: the Parallax scrolling! Making the parallax scrolling look good on all different screen sizes was hard! I wanted both the curtains at the top of the photo and the entire drum that said "The Monkees" to fit on every screen size, so I had to set different positions using x% y% rather than center or top. I could have gone with another picture I suppose but why make it easy for yourself.
+- Not really a bug maybe but: the Parallax scrolling! Making the parallax scrolling look good on all devices was hard since I wanted both the curtains at the top of the photo and the entire drum that said "The Monkees" to fit on every screen size. I had to set different positions for different screen sizes using x% y% rather than center or top, and then adjusting the percentage of the screen that it would cover as well. I could have just gone with another picture I suppose, but why make it easy for yourself. It is still not perfect (iPad Pro vs desktop, which one to prioritize, ugh), but at lot better than when I started.
 
-- The tour schedule was at first a table, which apart from the ugl bootstrap gray lines worked well on all larger devices. At the end of the project I decided to redo it.
+- The tour schedule was at first a table, which apart from the less-flattering gray bootstrap broders looked alright on larger screens. As in it looked awful on smartphones, began to scroll horizontally and everything. At the end of the project my mentor recommended me to simply use divs, which I did. 
 
 ### User stories testing
 
@@ -98,10 +130,8 @@ The project has been backed up using Git. It is deployed on GitHub Pages directl
 
 ### Acknowledgements
 
-- Navbar was taken from here and then customized [Bootstrapdocs](https://bootstrapdocs.com/v3.3.6/docs/components/#navbar)
-- Basic form snippet from here [Bootstrapdocs](https://bootstrapdocs.com/v3.3.6/docs/css/#forms)
-- Parallax scrolling taken from here and then customized [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp)
-- Browsing through [CSSTricks](https://css-tricks.com/) has helped me agreat deal
-- Learnt how to deal with accessibility of icons here [FontAwesome](https://fontawesome.com/v4.7.0/accessibility/)
+- Navbar was taken from here and then customized by removing unneccessary parts [Bootstrapdocs](https://bootstrapdocs.com/v3.3.6/docs/components/#navbar)
+- Basic form snippet taken from here [Bootstrapdocs](https://bootstrapdocs.com/v3.3.6/docs/css/#forms)
+- Parallax scrolling taken from here and then customized  [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp)
 - Balsamiq was used to create the wireframes [Balsamiq](https://balsamiq.cloud)
 - My README is based on the template provided in the course
