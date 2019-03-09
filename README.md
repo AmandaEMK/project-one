@@ -66,9 +66,9 @@ You should also mention in this section any interesting bugs or problems you dis
 
 ## BUGS
 
-Parallax scrolling is borked
-Tour schedule wont center vertically
-Album image wont center on smartphone
+- Not really a bug maybe but: the Parallax scrolling! Making the parallax scrolling look good on all different screen sizes was hard! I wanted both the curtains at the top of the photo and the entire drum that said "The Monkees" to fit on every screen size, so I had to set different positions using x% y% rather than center or top. I could have gone with another picture I suppose but why make it easy for yourself.
+
+- The tour schedule was at first a table, which apart from the ugl bootstrap gray lines worked well on all larger devices. At the end of the project I decided to redo it.
 
 ### User stories testing
 
@@ -86,7 +86,7 @@ Album image wont center on smartphone
 
 ## Deployment
 
-The project has been backed up using Git. It is deployed on GitHub Pages. The development version and the deployed one are the same.
+The project has been backed up using Git. It is deployed on GitHub Pages directly from the master branch. The development version and the deployed one are the same.
 
 ## Credits
 
@@ -102,6 +102,6 @@ The project has been backed up using Git. It is deployed on GitHub Pages. The de
 - Basic form snippet from here [Bootstrapdocs](https://bootstrapdocs.com/v3.3.6/docs/css/#forms)
 - Parallax scrolling taken from here and then customized [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp)
 - Browsing through [CSSTricks](https://css-tricks.com/) has helped me agreat deal
-- Learnt how to make icons accessable here [FontAwesome](https://fontawesome.com/v4.7.0/accessibility/)
+- Learnt how to deal with accessibility of icons here [FontAwesome](https://fontawesome.com/v4.7.0/accessibility/)
 - Balsamiq was used to create the wireframes [Balsamiq](https://balsamiq.cloud)
 - My README is based on the template provided in the course
