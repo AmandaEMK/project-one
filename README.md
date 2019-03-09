@@ -123,8 +123,8 @@ The project has been backed up using Git. It is deployed on GitHub Pages directl
 
 ### Acknowledgements
 
-- Navbar was taken from here and then customized by removing unneccessary parts [Bootstrapdocs](https://bootstrapdocs.com/v3.3.6/docs/components/#navbar)
-- Basic form snippet taken from here [Bootstrapdocs](https://bootstrapdocs.com/v3.3.6/docs/css/#forms)
-- Parallax scrolling snippet was taken from here and then customized  [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp)
-- Balsamiq was used to create the wireframes [Balsamiq](https://balsamiq.cloud)
+- Navbar was taken from [Bootstrapdocs](https://bootstrapdocs.com/v3.3.6/docs/components/#navbar) and then customized by removing unneccessary parts
+- Basic form snippet taken from [Bootstrapdocs](https://bootstrapdocs.com/v3.3.6/docs/css/#forms)
+- Parallax scrolling snippet was taken from [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp) and then customized
+- [Balsamiq](https://balsamiq.cloud) was used to create the wireframes 
 - My README is based on the template provided in the course
