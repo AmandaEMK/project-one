@@ -24,32 +24,11 @@ h1 {
     color:#0E3E66;
 }
 
-.custom-form {
-    font-family: 'Barlow', sans-serif;
-    border-color: #333333;
-    background-color: #F4EEE3;
-}
-
-
-.custombutton {
-    font-family: 'Barlow', sans-serif;
-    border-color: #333333;
-    background-color: #F4EEE3;
-}
-
-.custombutton:hover {
-    font-family: 'Barlow', sans-serif;
-    border-color: #333333;
-    background-color: #BF4342;
-}
-
 .title-div {
     padding-top:15px;
     padding-bottom:20px;
     
 }
-
-
 
     /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Navbar ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
     
@@ -63,26 +42,26 @@ h1 {
     letter-spacing: 3px;
 }
 
+.navbar-default .navbar-toggle .navbar-toggle:focus, .navbar-default:hover .navbar-toggle:hover {
+    background-color: #1e1e1e!important;
+    border-color: #1e1e1e!important;
+}
+
 .nav li a {
     color:#D9CAB3!important;
     font-weight: bold;
     text-align: center;
-    
 }
 
 .nav a:hover {
     color:#BF4342!important;    
 }
 
-.nav-button-custom {
-    background-color:#1E1E1E;
-    
-}
 
 
     /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Landing thing ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
 
-.landingphoto {
+.landing-photo {
     background-image: url("../images/monkees.jpg");
     height:40%; 
     background-attachment: fixed;
@@ -100,7 +79,6 @@ h1 {
 .about {
     background-color: #D9CAB3;
 }
- /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ LOL MOVE INSTRUEMNT TO MEDIA QUERIES~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
 
 .about h4 {
     text-align: center;
@@ -120,7 +98,7 @@ h1 {
     font-size: 1.1em;
 }
 
-.mobileonlyphototext {
+.mobile-only-photo-text {
     font-size: 0.9em;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -140,12 +118,12 @@ h1 {
     font-family: 'Didact Gothic', sans-serif;
 }
 
-.music a {
+.music i {
     color: #333333;
     font-size: 0.9em;
 }
 
-.music a:hover {
+.music i:hover {
     color:#94B9AF;    
 }
 
@@ -166,9 +144,6 @@ h1 {
     font-family: 'Barlow', sans-serif;
 }
 
-.songlist {
-    padding-left: 10px;
-}
 
 .album {
     padding-bottom: 20px;
@@ -180,7 +155,12 @@ h1 {
 }
 
 video {
-    width:100%;
+    width:90%;
+    padding-bottom: 15px;
+}
+
+.music-video {
+    text-align: center;
 }
 
 .video-text {
@@ -208,12 +188,30 @@ video {
     margin-bottom:30px;
 }
 
+.custom-button {
+    font-family: 'Barlow', sans-serif;
+    border-color: #333333;
+    background-color: #F4EEE3;
+}
+
+.custom-button:hover {
+    font-family: 'Barlow', sans-serif;
+    border-color: #333333;
+    background-color: #BF4342;
+}
+
     /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Book Us ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
 
 .book-us {
     background-color:#F4EEE3;
     font-family: 'Didact Gothic', sans-serif;
     text-align: center;
+}
+
+.custom-form {
+    font-family: 'Barlow', sans-serif;
+    border-color: #333333;
+    background-color: #F4EEE3;
 }
 
 .div-bottom-padding {
@@ -253,7 +251,8 @@ video {
 
 @media (min-width: 576px) {
     
-.landingphoto {
+.landing-photo {
+    background-image: url("../images/monkees.jpg");
     height:39%; 
     background-position: 50% 12%;
     background-size:125%;
@@ -277,7 +276,8 @@ video {
     
 @media (min-width: 768px) { 
     
-.landingphoto {
+.landing-photo {
+    background-image: url("../images/monkees.jpg");
     height:46%; 
     background-position: 50% 08%;
     background-size:125%;
@@ -310,10 +310,8 @@ video {
 
 
 video {
-    margin-top: 0px;
-    margin-bottom: 0px; 
+    padding-bottom: 40px;
 }
-
 
 .tour img {
     max-width: 80%;
@@ -348,7 +346,8 @@ video {
 
 @media (min-width: 992px) { 
 
-.landingphoto {
+.landing-photo {
+    background-image: url("../images/monkees.jpg");
     height:60%; 
     background-position: 50% 20%;
     background-size:100%;
@@ -357,17 +356,21 @@ video {
 h1 {
     letter-spacing: 14px;
     font-size: 5em;
-    font-weight: bold;
 }    
     
-
-.about h1 {
-    padding-bottom: 30px;
+.title-div {
+    padding-top:30px;
+    padding-bottom:50px;
+    
 }
 
 .about img {
     margin-bottom:8px;
     max-width: 90%;
+}
+
+.instrument {
+    font-size: 1.1em;
 }
 
 .about-text {
@@ -379,34 +382,23 @@ h1 {
     
 }    
 
-.songlist {
-    padding-left: 10px;
-    padding-bottom: 30px;
-    display: inline-block;
-}
-
 .video-text {
-    font-size: 2em;
+    font-size: 3.5em;
 }
 
 video {
-    max-width:700px;
-    width:100%;
-    height:auto;
+    width:90%;
+    max-width: 900px;
     padding-top: 25px;
     padding-bottom: 20px; 
 }
-
 
 .music-video {
     text-align: center;
 }
 
-
 .tour img {
     max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom:40px;
 }
 
@@ -424,24 +416,21 @@ video {
 
 @media (min-width: 1200px) { 
     
-.landingphoto {
+.landing-photo {
     background-image: url("../images/monkees.jpg");
     height:80%; 
-    background-attachment: fixed;
     background-position: 50% 20%;
-    background-repeat: no-repeat;
     background-size:100%;
 }
     
 h1 {
-    letter-spacing: 18px;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 6em;
-    font-weight: bold;
+    letter-spacing: 23px;
+    font-size: 6.5em;
 }    
 
-.about h1 {
-    padding-bottom: 40px;
+.title-div {
+    padding-top:40px;
+    padding-bottom:60px;
 }
 
 .about-text p {
@@ -449,15 +438,14 @@ h1 {
     font-size: 1.3em;
 }
 
+.instrument {
+    font-size: 1.1em;
+}
+
 .about-text {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-
-.music a {
-    font-size: 0.9em;
-}
-
 
 .music h5 {
     padding-top: 7px;
@@ -470,32 +458,17 @@ h1 {
     letter-spacing: 0.7px;
 }
 
-
 .album {
     padding-bottom: 20px;
 }
 
-.songlist {
-    padding-left: 10px;
-    padding-bottom: 30px;
-    display: inline-block;
-}
-
-
 .video-text {
-    font-size: 3em;
+    font-size: 4.2em;
 }
 
 video {
-    max-width:700px;
-    width:100%;
-    height:auto;
-    padding-top: 25px;
-    padding-bottom: 20px; 
-}
-
-.music-video {
-    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 45px; 
 }
 
 .tour p {
@@ -503,19 +476,15 @@ video {
 }
 
 .tour-padding-top {
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
-.bookus img {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top:40px;
-    padding-bottom:50px;
-    
+.lead-padding {
+    padding-bottom: 50px;
 }
 
 .div-bottom-padding {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
     
