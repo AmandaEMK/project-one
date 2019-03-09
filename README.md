@@ -21,12 +21,13 @@ I made the wireframes with desktop in mind as default. As I was going along thou
  
 ### Wireframes
 
-You can find the wireframes in the wireframes folder, on here or by clicking [this link](https://project-one-amandaw.c9users.io/wireframes/TheBand.png).
+You can find the wireframes in the wireframes folder on here, or by clicking [this link](https://project-one-amandaw.c9users.io/wireframes/TheBand.png).
 
 ## Features
 
 ### Existing Features
 
+- Header with menu - Allows the user to easily navigate the website from anywhere
 - About - Allows the user to learn more or refresh their memory of the band and the members
 - Music - Allows the user to see their discography, listen to a few of the songs and watch a video of theirs.
 - Tours - Allows the user can stay up to date with tour dates and also buy tickets to them by clicking the button
@@ -55,15 +56,13 @@ You can find the wireframes in the wireframes folder, on here or by clicking [th
 
 ## Testing
 
-I was not able to automate any of the testing seeing as the website itself and my skills are on a very basic level. I did test the website on a range of different screen sizes using
-Chrome dev tools in a structured way (top to bottom basically) to make sure there were no function hindering bugs or major design flaws on any screen size, but put my main focus on making it look good on iPhone 6 and screens bigger than that.
-The CSS and HTML has been tested using [W3C Developer tools](https://w3c.github.io/developers/tools/).
+I was not able to automate any of the testing seeing as the website itself and my skills are on a very basic level. I did test the website on a range of different screen sizes using Chrome dev tools in a structured way (see below) to make sure there were no function hindering bugs or major design flaws on any screen size, but put my main focus on making it look good on iPhone 6 and screens bigger than that.
 
 ### This is the process I went through to test my website
 
 1.  Menu: 
     1. Click all links to verify that they work and bring you to the right section
-    2. Also verify that where they bring you makes sense visually (no white spaces before section clicked etc)
+    2. On smaller screens, verify that the drop down menu works
 
 1. About
     1. Verify that photos and text align properly and that the right band member photo/photos are displayed on the right screen sizes
@@ -85,22 +84,16 @@ The CSS and HTML has been tested using [W3C Developer tools](https://w3c.github.
 
 1. Footer
     1. Verify that the font size and the amound of space the footer takes up makes visual sense 
-    2. Click the icons to verify that they open in a new window and bring the user to what would be the right corressponing social media site for each icons
+    2. Click the icons to verify that they open in a new window and bring the user to what would be the right corresponing social media site for each icons
 
 
 ### Differences in layout and function depending on screen size
 
-The overall functionality and design is the same across all devices though there are some minor differences. On smaller screens, a group photo will be show in the about section instead of everyones individual photo.
-Larger devices will have the albums next to each other in the music section, while smaller devices will find them stacked vertically.
-Same thing will happen for the tour section, it will split into two sections (photo and text) and stack on smaller screens.
-The little cartoon at the bottom of the website will move around depending on the device screen size, just thought it looked nicer that way.
-The menu will turn into a burger style drop down menu on smaller screen in order to save pixels/space (is that the correct term even?).
+The overall functionality and design is the same across all devices though there are some minor differences. On smaller screens, a group photo will be show in the about section instead of everyones individual photo. Larger devices will have the albums next to each other in the music section, while smaller devices will find them stacked vertically. Same thing will happen for the tour section, it will split into two sections (photo and text) and stack on smaller screens. The menu will turn into a burger style drop down menu on smaller screens.
 
 ### Bugs
 
 - Not really a bug maybe but: the Parallax scrolling! Making the parallax scrolling look good on all devices was hard since I wanted both the curtains at the top of the photo and the entire drum that said "The Monkees" to fit on every screen size. I had to set different positions for different screen sizes using x% y% rather than center or top, and then adjusting the percentage of the screen that it would cover as well. I could have just gone with another picture I suppose, but why make it easy for yourself. It is still not perfect (iPad Pro vs desktop, which one to prioritize, ugh), but at lot better than when I started.
-
-- The tour schedule was at first a table, which apart from the less-flattering gray bootstrap broders looked alright on larger screens. As in it looked awful on smartphones, began to scroll horizontally and everything. At the end of the project my mentor recommended me to simply use divs, which I did. 
 
 ### User stories testing
 
@@ -132,6 +125,6 @@ The project has been backed up using Git. It is deployed on GitHub Pages directl
 
 - Navbar was taken from here and then customized by removing unneccessary parts [Bootstrapdocs](https://bootstrapdocs.com/v3.3.6/docs/components/#navbar)
 - Basic form snippet taken from here [Bootstrapdocs](https://bootstrapdocs.com/v3.3.6/docs/css/#forms)
-- Parallax scrolling taken from here and then customized  [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp)
+- Parallax scrolling snippet was taken from here and then customized  [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp)
 - Balsamiq was used to create the wireframes [Balsamiq](https://balsamiq.cloud)
 - My README is based on the template provided in the course
