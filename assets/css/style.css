@@ -11,30 +11,39 @@ html {
 
 p {
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Barlow', sans-serif;
+    color:#333333;
 }
 
 h1 {
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 6px;
     text-transform: uppercase;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3.2em;
+    color:#0E3E66;
+}
+
+.custom-form {
     font-family: 'Barlow', sans-serif;
-    font-size: 2.5em;
+    border-color: #333333;
+    background-color: #F4EEE3;
 }
 
-h4 {
-    text-align: center;
-    text-transform: uppercase;
-    padding-top: 3px;
-    font-family: 'Poppins', sans-serif;
+
+.custombutton {
+    font-family: 'Barlow', sans-serif;
+    border-color: #333333;
+    background-color: #F4EEE3;
 }
 
-.paddeddiv {
-    padding-top:5px;
-    padding-bottom:5px;
+.custombutton:hover {
+    font-family: 'Barlow', sans-serif;
+    border-color: #333333;
+    background-color: #BF4342;
 }
 
-.titlediv {
+.title-div {
     padding-top:15px;
     padding-bottom:20px;
     
@@ -47,7 +56,7 @@ h4 {
 
 
 .navbar {
-    background-color: #D9CAB3!important; 
+    background-color: #1E1E1E!important; 
     box-shadow: none!important; 
     border: none!important; 
     text-transform: uppercase;
@@ -55,7 +64,7 @@ h4 {
 }
 
 .nav li a {
-    color:#BF4342!important;
+    color:#D9CAB3!important;
     font-weight: bold;
     text-align: center;
     
@@ -63,6 +72,11 @@ h4 {
 
 .nav a:hover {
     color:#BF4342!important;    
+}
+
+.nav-button-custom {
+    background-color:#1E1E1E;
+    
 }
 
 
@@ -75,7 +89,7 @@ h4 {
     background-position: 50% 13%;
     background-repeat: no-repeat;
     background-size:125%;
-    background-color:black;
+    background-color:#1E1E1E;
 }
 
 
@@ -84,36 +98,29 @@ h4 {
 
 
 .about {
-    background-color: #94B9AF;
+    background-color: #D9CAB3;
 }
+ /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ LOL MOVE INSTRUEMNT TO MEDIA QUERIES~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
 
 .about h4 {
-    color:#F4EEE3;
-}
-
-.about h1 {
-    color:#0E3E66;
-}
-
-.about p {
-    color:#F4EEE3;
-}
-
-.about-text p {
-    text-align: left;
-    font-size: 1em;
-    color:#F4EEE3;
-    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 3px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .instrument {
     font-family: 'Barlow', sans-serif;
-    font-size: 1.1em;
     padding-top: 0px;
 }
 
+.about-text p {
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 1.1em;
+}
+
 .mobileonlyphototext {
-    text-align:center;
     font-size: 0.9em;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -124,27 +131,17 @@ h4 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 100%;
-    height: auto;
 }
 
-
-
     /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Music section ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
-
-
 
 .music {
     background-color: #F4EEE3;
     font-family: 'Didact Gothic', sans-serif;
 }
 
-.music h1 {
-    color:#0E3E66;
-}
-
 .music a {
-    color: #0E3E66;
+    color: #333333;
     font-size: 0.9em;
 }
 
@@ -159,15 +156,14 @@ h4 {
     padding-bottom: 2px;
     font-size: 1.5em;
     text-align: center;
-    color: #0E3E66;
+    color: #333333;
 }
 
 .music li {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 1em;
-    letter-spacing: 0.7px;
+    font-size: 0.9em;
     text-align: left;
-    color: #0E3E66;
+    font-weight: lighter;
+    font-family: 'Barlow', sans-serif;
 }
 
 .songlist {
@@ -179,39 +175,28 @@ h4 {
     text-align: center;
 }
 
-.centeralbum {
+.album-center {
     display: inline-block;
 }
 
 video {
     width:100%;
-    margin-top: 15px;
-    margin-bottom: 30px; 
 }
 
-.musicvideotext {
-    color:black;
-    font-size: 1.2em;
+.video-text {
+    color:#BF4342;
+    font-size: 1.1em;
+    font-family:"Permanent Marker"
 }
-
-
 
     /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Tour section ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
 
-
-
 .tour {
-    background-color: #BF4342;
-}
-
-.tour h1 {
-    color:#D9CAB3;
+    background-color: #D9CAB3;
 }
 
 .tour p {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 0.95em;
-    color:#D9CAB3;
+    font-size: 0.89em;
 }
 
 .tour img {
@@ -223,74 +208,43 @@ video {
     margin-bottom:30px;
 }
 
-
-
     /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Book Us ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
 
-
-
-.bookus {
-    background-color:#D9CAB3;
+.book-us {
+    background-color:#F4EEE3;
     font-family: 'Didact Gothic', sans-serif;
     text-align: center;
 }
 
-.bookus h1 {
-    color:#0E3E66;
+.div-bottom-padding {
+    padding-bottom: 60px;
 }
-
-.bookus p {
-    color:#0E3E66;
-}
-
-
-
-
 
     /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Footer ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
 
-
-
 .footer {
-    height:70px;
-    background-color:#D9CAB3;
+    height: 70px;
+    background-color:#F4EEE3;
     text-align: center;
-    width: 100%;
-    padding-top: 10px;
     font-family: 'Didact Gothic', sans-serif;
 }
 
-.fa-facebook {
-    font-size: 2.5em;
-    padding-left: 10px;
-    padding-right: 10px;
-    color:#0E3E66;
+.footer i:hover {
+    color:#BF4342;    
 }
 
-.fa-youtube {
+.icon-social {
     font-size: 2.5em;
     padding-left: 10px;
     padding-right: 10px;
-    color:#0E3E66;
-}
-
-.fa-twitter {
-    font-size: 2.5em;
-    padding-left: 10px;
-    padding-right: 10px;
-    color:#0E3E66;
+    color:#333333;
 }
 
 .footer p {
-    color:#0E3E66;
+    color:#333333;
     font-size: 0.9em;
+    padding-top:10px; 
 }
-
-.footer i:hover {
-    color:#94B9AF;    
-}
-
-
 
     /*-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Media queries ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ --*/
     
@@ -300,13 +254,9 @@ video {
 @media (min-width: 576px) {
     
 .landingphoto {
-    background-image: url("../images/monkees.jpg");
     height:39%; 
-    background-attachment: fixed;
     background-position: 50% 12%;
-    background-repeat: no-repeat;
     background-size:125%;
-    background-color:black;
 }
 
 .tour img {
@@ -314,10 +264,8 @@ video {
     margin-bottom:30px;
 }
 
-
 .tour p {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 0.95em;
+    font-size: 0.90em;
 }
 
 
@@ -330,39 +278,34 @@ video {
 @media (min-width: 768px) { 
     
 .landingphoto {
-    background-image: url("../images/monkees.jpg");
     height:46%; 
-    background-attachment: fixed;
     background-position: 50% 08%;
-    background-repeat: no-repeat;
     background-size:125%;
-    background-color:black;
 }
-    
 
 .album img {
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
 }
-
 
 .about img {
     margin-bottom:8px;
+    max-width: 90%;
 }
 
 .about-text {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
-.titlediv {
+.title-div {
     padding-top:20px;
     padding-bottom:40px;
 }
     
 .tour p {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 1em;
+    font-size: 0.83em;
 }
 
 
@@ -379,7 +322,7 @@ video {
     margin-bottom:50px;
 }
 
-.paddeddiv {
+.tour-padding {
     padding-top:5px;
     padding-bottom:5px;
 }
@@ -393,7 +336,7 @@ video {
 }
 
 
-.finaldiv {
+.div-bottom-padding {
     padding-bottom: 40px;
 }
 
@@ -406,19 +349,14 @@ video {
 @media (min-width: 992px) { 
 
 .landingphoto {
-    background-image: url("../images/monkees.jpg");
     height:60%; 
-    background-attachment: fixed;
     background-position: 50% 20%;
-    background-repeat: no-repeat;
     background-size:100%;
-    background-color:black;
 }
 
 h1 {
     letter-spacing: 14px;
-    font-family: 'Barlow', sans-serif;
-    font-size: 4em;
+    font-size: 5em;
     font-weight: bold;
 }    
     
@@ -427,14 +365,17 @@ h1 {
     padding-bottom: 30px;
 }
 
+.about img {
+    margin-bottom:8px;
+    max-width: 90%;
+}
+
 .about-text {
     padding-top: 30px;
-    padding-bottom: 30px;
 }
     
-.titlediv {
+.title-div {
     padding-top:30px;
-    padding-bottom:40px;
     
 }    
 
@@ -444,8 +385,7 @@ h1 {
     display: inline-block;
 }
 
-.musicvideotext {
-    color:black;
+.video-text {
     font-size: 2em;
 }
 
@@ -458,19 +398,23 @@ video {
 }
 
 
-.musicvideo {
+.music-video {
     text-align: center;
 }
 
 
 .tour img {
-    max-width: 70%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom:40px;
 }
 
-.finaldiv {
+.tour-padding-top {
+    padding-top: 25px;
+}
+
+.div-bottom-padding {
     padding-bottom: 50px;
 }
     
@@ -487,16 +431,14 @@ video {
     background-position: 50% 20%;
     background-repeat: no-repeat;
     background-size:100%;
-    background-color:black;
 }
     
 h1 {
-    letter-spacing: 16px;
-    font-family: 'Barlow', sans-serif;
-    font-size: 4.5em;
+    letter-spacing: 18px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 6em;
     font-weight: bold;
 }    
-    
 
 .about h1 {
     padding-bottom: 40px;
@@ -540,9 +482,8 @@ h1 {
 }
 
 
-.musicvideotext {
-    color:black;
-    font-size: 2.5em;
+.video-text {
+    font-size: 3em;
 }
 
 video {
@@ -553,17 +494,16 @@ video {
     padding-bottom: 20px; 
 }
 
-.musicvideo {
+.music-video {
     text-align: center;
 }
 
 .tour p {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.3em;
+    font-size: 1.15em;
 }
 
-.paddingtop-lg {
-    padding-top: 60px;
+.tour-padding-top {
+    padding-top: 40px;
 }
 
 .bookus img {
@@ -574,7 +514,7 @@ video {
     
 }
 
-.finaldiv {
+.div-bottom-padding {
     padding-bottom: 50px;
 }
 
