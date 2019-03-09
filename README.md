@@ -4,7 +4,7 @@ This is a website for a band called The Monkees. The band wanted a website on wh
 
 ## Demo
 
-You can find a live demo of the site [right here](https://project-one-amandaw.c9users.io/).
+You can find a live demo of the site on [GitHub pages](https://amandaemk.github.io/project-one/).
 
 ## UX
  
